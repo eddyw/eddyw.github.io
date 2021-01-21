@@ -1,0 +1,25 @@
+{
+	"name": "eddyw.github.io",
+	"version": "1.0.0",
+	"repository": "https://github.com/eddyw/eddyw.github.io.git",
+	"author": "Eddy Wilson <eddyw@users.noreply.github.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"build": "next build && next export -o dist",
+		"start": "serve docs -l 1337",
+		"dev": "next dev -p 1337"
+	},
+	"dependencies": {
+		"next": "10.0.5",
+		"react": "17.0.1",
+		"react-dom": "17.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "14.14.22",
+		"@types/react": "17.0.0",
+		"@types/react-dom": "17.0.0",
+		"serve": "11.3.2",
+		"typescript": "4.1.3"
+	}
+}
