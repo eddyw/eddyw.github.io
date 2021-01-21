@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"build": "next build && next export -o dist",
+		"build": "next build && next export -o build",
 		"start": "serve docs -l 1337",
 		"dev": "next dev -p 1337"
 	},
